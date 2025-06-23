@@ -2,9 +2,9 @@ import Container from "../Layout/Container";
 
 const Supply = () => {
 	return (
-		<div className="pt-[78px] pb-[100px]  ">
+		<div className="  ">
 			<Container>
-				<div className="flex justify-between items-center">
+				<div className="pt-[78px] pb-[100px] flex justify-between items-center">
 					<h3 className="max-w-[289px] font-primary font-bold leading-[72px] text-[48px]   ">
 						The biggest supplier on the country
 					</h3>
@@ -15,7 +15,7 @@ const Supply = () => {
 						distribution.
 					</p>
 				</div>
-			</Container>
+			</Container> 
 		</div>
 	);
 };

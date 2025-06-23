@@ -5,7 +5,7 @@ import Container from "../Layout/Container";
 const Banner = () => {
 	return (
 		<div
-			className="py-[258px] relative before:absolute before:w-full before:h-full before:top-0 before:left-0 before:bg-black/60 before:-z-10  z-10"
+			className=" bg-center bg-cover bg-no-repeat py-[258px] relative before:absolute before:w-full before:h-full before:top-0 before:left-0 before:bg-black/60 before:-z-10  z-10"
 			style={{
 				backgroundImage: `url(${banner})`,
 			}}

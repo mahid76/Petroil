@@ -5,6 +5,7 @@ import Banner from './components/Banner/Banner'
 import Blog from './components/Blog/Blog'
 import Collab from './components/Collab/Collab'
 import Header from './components/Header/Header'
+import MapLayout from './components/MapLayout/MapLayout'
 import Navbar from './components/Navbar/Navbar'
 import Services from './components/Services/Services'
 import Supply from './components/Supply/Supply'
@@ -21,6 +22,7 @@ function App() {
      <About />
      <Collab />
      <Blog />
+     <MapLayout />
     </>
   )
 }

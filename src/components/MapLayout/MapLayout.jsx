@@ -1,6 +1,8 @@
+import Container from "../Layout/Container";
+
 const MapLayout = () => {
 	return (
-		<div className="h-[450px] w-full flex flex-col">
+		<div className="h-[450px] w-full flex flex-col border-b-[5px] border-[#FFB800] ">
 			<div className="flex-1 relative">
 				<iframe
 					title="Google Map"
@@ -10,6 +12,16 @@ const MapLayout = () => {
 					allowFullScreen
 				></iframe>
 			</div>
+      <div className="bg-primary py-[45px]">
+        <Container>
+          <div className="flex justify-between items-center">
+            <h1 className="font-primary font-bold text-[36px] text-white  ">Want to join as member branch in your area?</h1>
+            <a href="#">
+              <p className="py-[14px] px-[32px] border-2 border-white bg-transparent text-white font-primary font-semibold  ">CONTACT</p>
+            </a>
+          </div>
+        </Container>
+      </div>
 		</div>
 	);
 };

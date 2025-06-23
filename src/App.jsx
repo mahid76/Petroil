@@ -2,6 +2,7 @@
 import './App.css'
 import About from './components/About/About'
 import Banner from './components/Banner/Banner'
+import Blog from './components/Blog/Blog'
 import Collab from './components/Collab/Collab'
 import Header from './components/Header/Header'
 import Navbar from './components/Navbar/Navbar'
@@ -19,6 +20,7 @@ function App() {
      <Services />
      <About />
      <Collab />
+     <Blog />
     </>
   )
 }

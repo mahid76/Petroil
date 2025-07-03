@@ -18,7 +18,7 @@ const Services = () => {
 				<div className="w-1/2">
 					<ServicesBanner02 />
 				</div>
-				<div className="w-1/2 block">
+				<div className="w-1/2">
 					<ServicesBanner03 />
 				</div>
 			</div>
